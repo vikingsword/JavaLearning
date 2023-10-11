@@ -8,4 +8,8 @@ public class Demo {
     public void getInfo() {
         System.out.println("this is test");
     }
+
+    public static void test() {
+        System.out.println("this is test2");
+    }
 }
