@@ -1,4 +1,7 @@
-package thinkingInJava.ch1.p9;
+package thinkingInJava.ch1.p10;
+
+import thinkingInJava.ch1.p7.Circle;
+import thinkingInJava.ch1.p7.Shape;
 
 /**
  * @author: vikingar
@@ -7,6 +10,8 @@ package thinkingInJava.ch1.p9;
  */
 public class Main {
     public static void main(String[] args) {
+        Circle circle = new Circle();
 
     }
+
 }
