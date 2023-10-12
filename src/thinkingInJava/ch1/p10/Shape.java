@@ -4,4 +4,5 @@ public interface Shape {
     void erase();
 
     void draw();
+
 }
