@@ -14,9 +14,18 @@ public class Main {
         s.draw();
         s.erase();
     }
+
     public static void main(String[] args) {
         Circle circle = new Circle();
         doSomething(circle);
+
+        System.out.println("------------");
+
+        Triangle triangle = new Triangle();
+        doSomething(triangle);
+
+
+
     }
 
 
