@@ -1,5 +1,6 @@
 package thinkingInJava.ch2.p26_p27;
 
+
 /**
  * @author: vikingar
  * @time: 2023/10/13 22:41
@@ -20,9 +21,12 @@ public class Main {
 
         int res = func1.getInt(1,2);
         System.out.println("res = " + res);
+        System.out.println("-------------------");
 
         int res2 = func1.storage("vikingar");
         System.out.println(res2);
+
+        func1.test01();
 
     }
 }
