@@ -8,5 +8,6 @@ package thinkingInJava.ch2.p30;
 public class Demo {
     public void test() {
         System.out.println("this is branch test");
+        System.out.println("this is local pull request");
     }
 }
