@@ -11,6 +11,8 @@ public class Demo {
         System.out.println("this is local pull request ");
         System.out.println("hello");
 
+        System.out.println("this is conflict content");
+
         System.out.println("test2");
     }
 }
