@@ -41,5 +41,6 @@ public class Main {
         AllTheColorsOfTheRainbow allTheColorsOfTheRainbow = new AllTheColorsOfTheRainbow();
         allTheColorsOfTheRainbow.changTheHueOfTheColor(2);
 
+
     }
 }
