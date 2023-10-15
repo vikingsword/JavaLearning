@@ -1,4 +1,4 @@
-package thinkingInJava.ch2.p37.prac3;
+package thinkingInJava.ch2.p37.prac3_9;
 
 /**
  * @author: vikingar
@@ -26,6 +26,20 @@ public class Main {
 
         Runnable runnable = Incrementable::increment;
         runnable.run();
+
+        System.out.println("----------------");
+
+        Integer i = 1;
+        System.out.println(i);
+
+
+        GetInputAndPrint getInputAndPrint = new GetInputAndPrint();
+        getInputAndPrint.GetThreeParam();
+
+        System.out.println("-------------");
+
+        AllTheColorsOfTheRainbow allTheColorsOfTheRainbow = new AllTheColorsOfTheRainbow();
+        allTheColorsOfTheRainbow.changTheHueOfTheColor(2);
 
     }
 }

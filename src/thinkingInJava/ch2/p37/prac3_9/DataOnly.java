@@ -1,6 +1,4 @@
-package thinkingInJava.ch2.p37.prac3;
-
-import com.sun.org.apache.xpath.internal.functions.FuncFalse;
+package thinkingInJava.ch2.p37.prac3_9;
 
 /**
  * @author: vikingar
