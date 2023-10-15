@@ -1,4 +1,4 @@
-package thinkingInJava.ch2.p37.prac3_9;
+package thinkingInJava.ch2.p37.prac3_10;
 
 /**
  * @author: vikingar
