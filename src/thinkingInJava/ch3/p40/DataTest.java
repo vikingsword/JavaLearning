@@ -1,13 +1,11 @@
-package thinkingInJava.ch3.p38;
-
-import org.apache.commons.math3.analysis.function.Exp;
+package thinkingInJava.ch3.p40;
 
 /**
  * @author: vikingar
- * @time: 2023/10/15 23:14
- * @description: operators
+ * @time: 2023/10/16 21:54
+ * @description:
  */
-public class Main {
+public class DataTest {
     public static void main(String[] args) {
         double x = 2.5;
         double y = 4.0;
@@ -33,6 +31,5 @@ public class Main {
         // 最大值和最小值
         double maxResult = Math.max(x, y);
         double minResult = Math.min(x, y);
-
     }
 }

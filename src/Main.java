@@ -1,4 +1,4 @@
-import thinkingInJava.Demo;
+
 
 /**
  * @author vikingar
@@ -7,10 +7,6 @@ import thinkingInJava.Demo;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        Demo demo = new Demo();
-        demo.getInfo();
-
-
 
     }
 
