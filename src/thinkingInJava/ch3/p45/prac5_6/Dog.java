@@ -1,4 +1,4 @@
-package thinkingInJava.ch3.p45.prac5;
+package thinkingInJava.ch3.p45.prac5_6;
 
 import java.util.Objects;
 
