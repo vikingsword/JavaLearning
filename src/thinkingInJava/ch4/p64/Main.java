@@ -27,7 +27,7 @@ public class Main {
         printList();
 
         System.out.println("------------------");
-        List<Student> filterList = stuList.stream().filter(o -> o.getName() != "zs").collect(Collectors.toList());
+        List<Student> filterList = stuList.stream().filter(o -> "zs".equals(o.getName())).collect(Collectors.toList());
         filterList.forEach(o -> {
             System.out.println("id = " + o.getId() + "; name = " + o.getName());
         });
