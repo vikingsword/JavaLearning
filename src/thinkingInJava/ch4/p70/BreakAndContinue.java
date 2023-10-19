@@ -20,16 +20,19 @@ public class BreakAndContinue {
     }
 
     static void test2() {
-        int count = 0;
-        while (count < 100) {
-            count++;
-            System.out.print(count + " ");
-            if (count == 74) break;
-            if (count % 9 != 0) continue;
+        int i = 0;
+        while (true) {
+            i++;
+            int j = i * 27;
+            if (j == 1269) break;
+            if (i % 10 != 0) continue;
+            System.out.print(i + " ");
         }
     }
 
     public static void main(String[] args) {
+
+//        test1();
 
         test2();
 
