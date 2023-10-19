@@ -11,5 +11,11 @@ public class ForEachString {
         for (char c : s.toCharArray()) {
             System.out.print(c + " ");
         }
+
+        String s2 = "niemandea";
+        for (char c : s2.toCharArray()) {
+            System.out.println(c);
+        }
+
     }
 }
