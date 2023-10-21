@@ -30,6 +30,7 @@ public class VowelsAndConsonants {
                 default:
                     System.out.println("consonant");
 
+
             }
         }
     }
