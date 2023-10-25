@@ -31,7 +31,12 @@ public class Main {
         System.out.println("---------------");
 
         list.stream().filter(o -> o.getName().length() > 5).mapToInt(o -> o.getName().length()).forEach(System.out::println);
-        list.stream().filter(o -> o.getName().length() > 5).mapToInt(o -> o.getName().length()).boxed().collect(Collectors.toList());
+        List<Integer> integerList = list.stream().filter(o -> o.getName().length() > 5).mapToInt(o -> o.getName().length()).boxed().collect(Collectors.toList());
+
+        System.out.println("---------------");
+        for (int item : integerList) {
+            System.out.println(item);
+        }
 
     }
 
