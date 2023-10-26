@@ -1,6 +1,7 @@
 package thinkingInJava.mess.test1;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
@@ -29,6 +30,15 @@ public class Test01 {
 
         map.entrySet().stream().mapToInt(o -> Integer.parseInt(o.getKey())).boxed().forEach(System.out::print);
 
-        
+
+        System.out.println("----------------");
+
+        List<String> stringList = map.entrySet().stream()
+                .sorted((o1, o2) -> o2.getValue().getName().length() - o1.getValue().getName().length())
+                .map(item -> item.getValue().getName())
+                .collect(Collectors.toList());
+        stringList.forEach(System.out::println);
+
+
     }
 }
