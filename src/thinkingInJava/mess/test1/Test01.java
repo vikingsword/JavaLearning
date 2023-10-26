@@ -29,6 +29,6 @@ public class Test01 {
 
         map.entrySet().stream().mapToInt(o -> Integer.parseInt(o.getKey())).boxed().forEach(System.out::print);
 
-
+        
     }
 }
