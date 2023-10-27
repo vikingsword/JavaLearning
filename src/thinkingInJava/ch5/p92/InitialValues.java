@@ -24,6 +24,10 @@ public class InitialValues {
         System.out.println("double = " + this.d);
         System.out.println("byte = " + this.b2);
         System.out.println("long = " + this.l);
+        System.out.println("reference = " + this.r);
+
+
+
     }
 
     public static void main(String[] args) {
