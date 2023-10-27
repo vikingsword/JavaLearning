@@ -1,4 +1,4 @@
-package thinkingInJava.ch5.p85.p92;
+package thinkingInJava.ch5.p92;
 
 /**
  * @author: vikingar
