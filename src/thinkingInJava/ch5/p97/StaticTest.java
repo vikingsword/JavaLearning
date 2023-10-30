@@ -10,4 +10,8 @@ public class StaticTest {
         System.out.println("inside main");
         Cups.cup1.f(100);
     }
+
+    static Cups cups1 = new Cups();
+//    static Cups cups2 = new Cups();
+
 }
