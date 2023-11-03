@@ -13,5 +13,7 @@ public class DebugTest {
         debug();
         thinkingInJava.ch6.p115.debug.Debug debug = new thinkingInJava.ch6.p115.debug.Debug();
         debug.debug();
+
+
     }
 }
