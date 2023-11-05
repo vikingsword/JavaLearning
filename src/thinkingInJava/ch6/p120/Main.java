@@ -14,6 +14,12 @@ public class Main {
     private float f;
 
     public String toString() {
-        return "value1 = " + value1 + " " + "value2 = " + value2 + ";";
+        return "value1 = " + value1 + " " + "value2 = " + value2 + ";" + "\n" +
+                "i = " + i + "\n" + "f = " + f + "\n" + "waterSource = " + waterSource;
+    }
+
+    public static void main(String[] args) {
+        Main main = new Main();
+        System.out.println(main);
     }
 }
