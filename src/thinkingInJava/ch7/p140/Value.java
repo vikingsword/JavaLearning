@@ -10,10 +10,14 @@ import thinkingInJava.ch7.p139.Instrument;
  */
 public class Value {
     public static Integer MIN = 1;
-    public static Integer MAX = 100;
+    public static final Integer MAX = 100;
 
     public static void main(String[] args) {
         System.out.println("min = " + MIN);
         System.out.println("max = " + MAX);
+
+        MIN = 2;
+//        MAX = 200;
+        System.out.println(MIN);
     }
 }
